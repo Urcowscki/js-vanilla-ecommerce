@@ -1,0 +1,14 @@
+{
+  "name": "js-vanilla-ecommerce",
+  "version": "1.0.0",
+  "description": "primeiro push",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^20.1.0"
+  }
+}
