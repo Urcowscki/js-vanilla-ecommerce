@@ -30,6 +30,7 @@ JS AMAZONA
    6. duplicate 2 times to show 3 products
 
 4. Render Dynamic Home Screen
+
    1. create data.js
    2. export an array of 6 products
    3. create screen/HomeScreen.js
@@ -43,3 +44,15 @@ JS AMAZONA
    11. create router() function
    12. set main_container innerHTML to HomeScreen.render()
    13. set load evend of window to router() function
+
+5. Build Url Router
+   1. crete routes as route:screen object for home screen
+   2. create utils.js
+   3. export parseRequestURL()
+   4. set url as hash address split by slash
+   5. return resource, id and verb of url
+   6. update router()
+   7. ser request as parseRequestURL()
+   8. build parsedUrl and compare with routes
+   9. if routes exists render it, else render Error404
+   10. create screen/Error404.js and render error message
