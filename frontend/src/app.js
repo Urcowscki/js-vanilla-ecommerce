@@ -14,7 +14,7 @@ const router = () => {
     (request.verb ? `/${verb}` : '');
   const screen = routes[parse] ? routes[parseUrl] : Error404Screen;
   const main = document.getElementById('main-container');
-  main.innerHTML = screen.render();
+  main.innerHTML = HomeScreen.render();
 };
 window.addEventListener('load', router);
 window.addEventListener('hashchnage', router);
