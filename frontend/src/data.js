@@ -1,11 +1,11 @@
-module.exports = {
+export default {
   products: [
     {
       _id: '1',
       name: 'Hiskywin Full Zip Running Shirts Thermal Workout',
       category: 'Shirts',
       image: '/images/product-1.jpg',
-      price: 60,
+      price: 59,
       brand: 'Hiskywin',
       rating: 4.5,
       numReviews: 10,
@@ -47,7 +47,7 @@ module.exports = {
       name: 'Champion Mens Graphic Powerblend Fleece Jogger',
       category: 'Pants',
       image: '/images/product-5.jpg',
-      price: 84,
+      price: 119,
       brand: 'Champion',
       rating: 3.5,
       numReviews: 89,
