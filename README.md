@@ -46,6 +46,7 @@ JS AMAZONA
    13. set load evend of window to router() function
 
 5. Build Url Router
+
    1. crete routes as route:screen object for home screen
    2. create utils.js
    3. export parseRequestURL()
@@ -56,3 +57,14 @@ JS AMAZONA
    8. build parsedUrl and compare with routes
    9. if routes exists render it, else render Error404
    10. create screen/Error404.js and render error message
+
+6. Create Node.JS Server
+7. run npm init in root jsamazona folder
+   2.npm install express
+   3.create sever.js
+   4.add start command as node backend/server.js
+   5.require express
+   6.move data.js from frontend to backend
+   7.create route for /api/products
+   8.return products in data.js
+   9.run npm start
