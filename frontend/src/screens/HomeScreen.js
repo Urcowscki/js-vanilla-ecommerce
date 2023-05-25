@@ -1,6 +1,4 @@
-import data from '.data.js';
-import { getDefaultSettings } from 'http2';
-
+import data from '..data.js';
 const HomeScreen = {
   render: () => {
     const { products } = data;
