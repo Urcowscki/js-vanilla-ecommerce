@@ -3,4 +3,4 @@ const Error404Screen = {
     return `<div>Page not Found!</div>`;
   },
 };
-export default ProductScreen;
+export default Error404Screen;
